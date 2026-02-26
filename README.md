@@ -2,10 +2,10 @@
   <img src="docs/assets/logo.png" alt="EverydayAI" width="200" />
 </p>
 
-<h1 align="center">Superpowers — SDLC Orchestration Fork</h1>
+<h1 align="center">EverydayAI Superpowers</h1>
 
 <p align="center">
-  An <a href="https://github.com/EAIconsulting">EAIconsulting</a> fork of <a href="https://github.com/obra/superpowers">obra/superpowers</a><br/>
+  An <a href="https://github.com/EverydayAI">EverydayAI</a> fork of <a href="https://github.com/obra/superpowers">obra/superpowers</a><br/>
   Adds a full SDLC orchestration pipeline on top of the Superpowers skills system for Claude Code.
 </p>
 
@@ -129,4 +129,4 @@ MIT License — see LICENSE file for details.
 
 ## Support
 
-- **Issues**: https://github.com/EAIconsulting/superpowers/issues
+- **Issues**: https://github.com/EverydayAI/superpowers/issues

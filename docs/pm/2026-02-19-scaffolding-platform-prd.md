@@ -1,12 +1,12 @@
 ---
 artifact: prd
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-19"
 status: approved
 phase: D
 ---
 
-# Product Requirements Document: Claude Code Scaffolding Platform
+# Product Requirements Document: EverydayAI Superpowers
 
 ## Executive Summary
 

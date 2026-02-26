@@ -1,11 +1,19 @@
 <!-- pipeline:v3.1 -->
-# Superpowers — SDLC Orchestration Fork (Pipeline v3.1)
+# EverydayAI Superpowers (Pipeline v3.1)
 
 ## SDLC Orchestration Extension
 
-This fork adds a Pipeline v3.1 SDLC orchestration system on top of Superpowers. v3.1 builds on v3's parallel iteration teams within token-budgeted timeboxes, adding structured intent capture, human engagement at Integration Points, format-aware output via Agentic Output Architecture (AOA), and PI continuation across sessions. All department teams run concurrently within each iteration. Integration Points fire when work is done OR when the timebox expires — whichever comes first.
+This fork adds a Pipeline v3.1 SDLC orchestration system on top of EverydayAI Superpowers. v3.1 builds on v3's parallel iteration teams within token-budgeted timeboxes, adding structured intent capture, human engagement at Integration Points, format-aware output via Agentic Output Architecture (AOA), and PI continuation across sessions. All department teams run concurrently within each iteration. Integration Points fire when work is done OR when the timebox expires — whichever comes first.
 
 **Canonical architecture reference**: `docs/pm/references/pipeline-v3-architecture.md`
+
+### Git Remote Safety
+
+This is a fork of `obra/superpowers`. The `upstream` remote exists only for fetching updates — **NEVER push to upstream**. All pushes, branches, and PRs must target `origin` (`EAIconsulting/superpowers`). A `pre-push` hook in `.git/hooks/pre-push` enforces this. Pushing to `obra/superpowers` risks leaking confidential data.
+
+- `git push origin <branch>` — correct
+- `git push upstream <branch>` — **BLOCKED, will be rejected**
+- `gh pr create` — targets `origin` via `gh repo set-default`
 
 ### Added Commands
 - `/orchestration` — Run the full Pipeline v3 SDLC (PI Planning → Iterations 1–3 + IP Iteration)

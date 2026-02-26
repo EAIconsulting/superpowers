@@ -1,6 +1,6 @@
 ---
 date: 2026-02-20
-project: scaffolding-platform
+project: everydayai-superpowers
 project_type: claude-code-plugin
 category: architecture-patterns
 tags: [overlay-fork, native-primitives, severity-gates, compound-engineering]
