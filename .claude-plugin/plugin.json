@@ -1,13 +1,13 @@
 {
   "name": "superpowers",
-  "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+  "description": "EverydayAI fork of Superpowers: SDLC orchestration pipeline + core skills for Claude Code",
   "version": "4.3.0",
   "author": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "EverydayAI",
+    "email": "milindbhat@gmail.com"
   },
-  "homepage": "https://github.com/obra/superpowers",
-  "repository": "https://github.com/obra/superpowers",
+  "homepage": "https://github.com/EverydayAI/superpowers",
+  "repository": "https://github.com/EverydayAI/superpowers",
   "license": "MIT",
   "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"]
 }

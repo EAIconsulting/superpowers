@@ -1,4 +1,4 @@
-# Superpowers Release Notes
+# EverydayAI Superpowers Release Notes
 
 ## v4.3.0 (2026-02-12)
 

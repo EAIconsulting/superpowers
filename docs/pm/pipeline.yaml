@@ -1,0 +1,66 @@
+pipeline:
+  name: "EverydayAI Superpowers — Full SDLC"
+  stages:
+    - id: pm-discover
+      type: skill
+      skill: pm-discovery
+      model: opus
+      gate: p1
+      gate_prompt: "Review PM artifacts: personas, journey maps, user stories, PRD, PM spec"
+      produces:
+        - "docs/pm/*-personas.md"
+        - "docs/pm/*-journey-map.md"
+        - "docs/pm/*-user-stories.md"
+        - "docs/pm/*-feature-stories.md"
+        - "docs/pm/*-prd.md"
+        - "docs/pm/*-pm-spec.md"
+
+    - id: brainstorm
+      type: skill
+      skill: superpowers:brainstorming
+      model: opus
+      gate: p1
+      gate_prompt: "Review the design document"
+      consumes:
+        - "docs/pm/*-pm-spec.md"
+      produces:
+        - "docs/plans/*-design.md"
+
+    - id: write-plan
+      type: skill
+      skill: superpowers:writing-plans
+      model: opus
+      gate: p1
+      gate_prompt: "Review the implementation plan"
+      consumes:
+        - "docs/plans/*-design.md"
+      produces:
+        - "docs/plans/*-plan.md"
+
+    - id: execute-plan
+      type: skill
+      skill: superpowers:executing-plans
+      model: sonnet
+      gate: none
+      consumes:
+        - "docs/plans/*-plan.md"
+      produces:
+        - "commands/**"
+        - "hooks/**"
+        - "agents/**"
+
+    - id: code-review
+      type: skill
+      skill: superpowers:requesting-code-review
+      model: sonnet
+      gate: p1
+      gate_prompt: "Review code quality findings"
+      consumes:
+        - "commands/**"
+        - "docs/plans/*-plan.md"
+
+    - id: ship
+      type: skill
+      skill: superpowers:finishing-a-development-branch
+      model: sonnet
+      gate: none

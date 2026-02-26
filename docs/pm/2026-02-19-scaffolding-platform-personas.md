@@ -1,12 +1,12 @@
 ---
 artifact: personas
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-19"
 status: approved
 phase: D
 ---
 
-# User Personas: Claude Code Scaffolding Platform
+# User Personas: EverydayAI Superpowers
 
 ## Persona Index
 

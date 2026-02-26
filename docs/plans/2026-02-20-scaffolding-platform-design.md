@@ -1,12 +1,12 @@
 ---
 artifact: design-doc
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-20"
 status: approved
 author: "Milind + Claude"
 ---
 
-# Design Document: Claude Code Scaffolding Platform
+# Design Document: EverydayAI Superpowers
 
 ## Overview
 

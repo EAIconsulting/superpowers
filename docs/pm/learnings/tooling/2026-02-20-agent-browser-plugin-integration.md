@@ -1,6 +1,6 @@
 ---
 date: 2026-02-20
-project: scaffolding-platform
+project: everydayai-superpowers
 project_type: claude-code-plugin
 category: tooling
 tags: [agent-browser, vercel, browser-testing, mcp, playwright, headless]

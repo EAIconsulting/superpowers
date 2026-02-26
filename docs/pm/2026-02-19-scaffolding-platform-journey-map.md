@@ -1,12 +1,12 @@
 ---
 artifact: journey-map
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-19"
 status: approved
 phase: D
 ---
 
-# Customer Journey Map: Claude Code Scaffolding Platform
+# Customer Journey Map: EverydayAI Superpowers
 
 ## Persona: Milind — The Strategic Builder (persona-1)
 
@@ -322,7 +322,7 @@ journey
 
 ```yaml
 journey_map:
-  project: "Claude Code Scaffolding Platform"
+  project: "EverydayAI Superpowers"
   persona: "persona-1"
   journeys:
     - name: "Current State (Broken)"

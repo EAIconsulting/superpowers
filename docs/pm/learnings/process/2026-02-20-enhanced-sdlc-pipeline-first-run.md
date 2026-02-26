@@ -1,6 +1,6 @@
 ---
 date: 2026-02-20
-project: scaffolding-platform
+project: everydayai-superpowers
 project_type: claude-code-plugin
 category: process
 tags: [sdlc-pipeline, tdd, browser-testing, agent-browser, autonomous-run, static-analysis, security-scan]

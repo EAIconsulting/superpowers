@@ -1,6 +1,6 @@
 ---
 artifact: pm-spec
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-19"
 status: approved
 phase: F
@@ -13,7 +13,7 @@ discovery_phases:
   F: draft
 ---
 
-# PM Spec: Claude Code Scaffolding Platform
+# PM Spec: EverydayAI Superpowers
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:brainstorming to design the implementation, OR use superpowers:writing-plans if the design is already clear from this PM spec.
 
@@ -320,7 +320,7 @@ The system is guided by seven principles that act as architectural constraints:
 
 ```yaml
 pm_spec:
-  project: "Claude Code Scaffolding Platform"
+  project: "EverydayAI Superpowers"
   date: "2026-02-19"
   status: draft
   artifacts:

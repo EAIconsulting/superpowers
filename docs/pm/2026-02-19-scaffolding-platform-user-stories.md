@@ -1,13 +1,13 @@
 ---
 artifact: user-stories
-project: "Claude Code Scaffolding Platform"
+project: "EverydayAI Superpowers"
 date: "2026-02-19"
 status: approved
 phase: D
 persona: "Milind - The Strategic Builder"
 ---
 
-# User Stories: Claude Code Scaffolding Platform
+# User Stories: EverydayAI Superpowers
 
 ## Story Index
 
