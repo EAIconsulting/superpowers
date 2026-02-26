@@ -7,6 +7,14 @@ This fork adds a Pipeline v3.1 SDLC orchestration system on top of EverydayAI Su
 
 **Canonical architecture reference**: `docs/pm/references/pipeline-v3-architecture.md`
 
+### Git Remote Safety
+
+This is a fork of `obra/superpowers`. The `upstream` remote exists only for fetching updates — **NEVER push to upstream**. All pushes, branches, and PRs must target `origin` (`EAIconsulting/superpowers`). A `pre-push` hook in `.git/hooks/pre-push` enforces this. Pushing to `obra/superpowers` risks leaking confidential data.
+
+- `git push origin <branch>` — correct
+- `git push upstream <branch>` — **BLOCKED, will be rejected**
+- `gh pr create` — targets `origin` via `gh repo set-default`
+
 ### Added Commands
 - `/orchestration` — Run the full Pipeline v3 SDLC (PI Planning → Iterations 1–3 + IP Iteration)
 - `/scaffold` — Generate project scaffolding from YAML templates
